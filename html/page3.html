@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang = "vi">
+        <head>
+               <title>Thiết kế form</title>
+               <meta charset = "utf -8">
+			   <link rel = "stylesheet" href = "../css/style3.css">
+         </head>
+         <body>
+             <div class="container">
+                <form id = "frmLogin">
+<h3 class = "title">Đăng ký tài khoản</h3>
+<div class = "form-group">
+    <label>Họ và tên:</label><br>
+    <input type = "text" name = "fullname"><br><br>
+    </div>
+    <div class = "form group">
+        <label>Mã sinh viên:</label><br>
+        <input type = "text" name = "student_id"><br><br>
+    </div>
+     <div class = "form-group">
+        <label>Email:</label><br>
+        <input type = "email" name = "email"><br><br>
+</div>
+<div class = "form-group">
+    <label>Số điện thoại:</label><br>
+    <input type = "tel" name = "phone"><br><br>
+</div>
+<div class = "form-group">
+    <label>Địa chỉ:</label><br>
+    <input type = "text" name = "address"><br><br>
+</div>
+<div class = "form-group">
+    <label>Giới tính:</label><br>
+    <input type = "radio" name = "gender" value = "nam"> Nam<br>
+    <input type = "radio" name = "gender" value = "nu"> Nữ<br>
+    <input type = "radio" name = "gender" value = "khac"> Khác<br><br>
+</div>
+<div class = "form-group">
+    <label>Ngày sinh:</label><br>
+    <input type = "date" name = "birthday"><br><br>
+</div>
+<div class = "form-group">
+    <label for = "txtPassword">Mật khẩu: </label><br>
+     <input type = "form-control" type = "password" id = "txtPassword" name = "txtPassword" placeholder="Nhập mật khẩu">
+  </div>
+  <div class = "form-group">
+    <label for = "txtPassword">Nhập lại mật khẩu: </label><br>
+<input type = "form-control" type = "password" id = "txtPassword" name = "txtPassword" placeholder="Nhập lại mật khẩu">
+  </div>
+  <div class = "form-group">
+    <label>Điểm mạnh:</label><br>
+    <textarea name = "strengths" rows="4" clos="30"></textarea><br><br>
+  </div>
+  <div class = "form-group">
+    <label>Ảnh đại diện:</label><br>
+    <input type = "file" name = "avatar" accept ="image/*"><br><br>
+  </div>
+  <input class="button" type = "submit" name = "sbLogin" value = "Đăng ký">
+  <input class = "button" type = "reset" name = "rsCancel" value = "Hủy bỏ">
+                </form>
+            </div>
+         </body>
+         </html>
+                
+
