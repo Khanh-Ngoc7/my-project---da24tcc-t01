@@ -8,29 +8,29 @@
          <body>
             <script>
                 const newDiv = document.createElement("div");
-                const newText = document.createTextNode("Thanh Cong");
+                const newText = document.createTextNode("Thành Công");
                newDiv.setAttribute("class","product-item");
                //tạo phần hình
-               const newimage = document.createElenment("div");
+               const newimage = document.createElement("div");
                newimage.setAttribute("class","product-img");
                //chèn hình
                const imageNode = document.createElement("img");
-               imageNode.setAttribute("src","../assets/images/Hình.jpg");
+               imageNode.setAttribute("src","../assets/images/hinh.jpg");
                newimage.appendChild(imageNode);
                //chèn thông tin hình ảnh
                 const imgInfo = document.createElement("div");
                 imgInfo.setAttribute("class","img-info");
 
                 newDiv.appendChild(newText);
-                newDiv.appendChild(imageNode);
+                newDiv.appendChild(newimage);
                 newDiv.appendChild(imgInfo);
                 document.body.appendChild(newDiv);
             </script>
             <div class ="product-item">
                 <div class="img-info">
-                    <p>Tên:Mercedes AMG SL63 4MATIC</p>
-                    <p>Giá:5 tỷ</p>      
-                    <a href="https://mercedesvietnamstar.vn/mercedes-amg-sl63"></a>        
+                    <p>Tên: Mercedes AMG SL63 4MATIC</p>
+                    <p>Giá: 5 tỷ</p>      
+                    <a href="https://mercedesvietnamstar.vn/mercedes-amg-sl63">Chi tiết về xe</a>     
                 </div>
             </div>
             </body>
