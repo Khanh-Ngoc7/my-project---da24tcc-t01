@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "vi">
+        <head>
+               <title>Tạo file thành công</title>
+               <meta charset = "utf -8">
+			   <link rel = "stylesheet" href = "../css/style6.css">
+         </head>
+         <body>
+            <script>
+                const newDiv = document.createElement("div");
+                const newText = document.createTextNode("Thanh Cong");
+               newDiv.setAttribute("class","product-item");
+               //tạo phần hình
+               const newimage = document.createElenment("div");
+               newimage.setAttribute("class","product-img");
+               //chèn hình
+               const imageNode = document.createElement("img");
+               imageNode.setAttribute("src","../assets/images/Hình.jpg");
+               newimage.appendChild(imageNode);
+               //chèn thông tin hình ảnh
+                const imgInfo = document.createElement("div");
+                imgInfo.setAttribute("class","img-info");
+
+                newDiv.appendChild(newText);
+                newDiv.appendChild(imageNode);
+                newDiv.appendChild(imgInfo);
+                document.body.appendChild(newDiv);
+            </script>
+            <div class ="product-item">
+                <div class="img-info">
+                    <p>Tên:Mercedes AMG SL63 4MATIC</p>
+                    <p>Giá:5 tỷ</p>      
+                    <a href="https://mercedesvietnamstar.vn/mercedes-amg-sl63"></a>        
+                </div>
+            </div>
+            </body>
+            </html>
